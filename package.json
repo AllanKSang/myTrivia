@@ -1,0 +1,12 @@
+{
+    "dependencies": {
+        "concurrently": "^8.2.2"
+    },
+
+    "scripts": {
+        "start": "concurrently \"npm run server\" \"npm run client\"",
+        "server": "cd server && npm start",
+        "client": "cd my-trivia && npm start"
+    }
+
+}

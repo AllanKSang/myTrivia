@@ -1,0 +1,21 @@
+.App {
+    text-align: center;
+}
+
+.Submit-button {
+    background-color: tomato;
+    color: black;
+}
+
+.Submit-button:hover {
+    cursor: pointer;
+}
+
+.Next-button {
+    background-color: blue;
+    color: wheat;
+}
+
+.Next-button:hover {
+    cursor: pointer;
+}
